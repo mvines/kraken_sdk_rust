@@ -29,7 +29,7 @@ impl GetDepositAddressesRequest {
 #[derive(Debug, Deserialize)]
 pub struct DepositAddresses {
     pub address: String,
-    pub expiretm: String,
+    //pub expiretm: String,
     pub new: Option<bool>,
 }
 
